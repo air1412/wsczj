@@ -8,7 +8,8 @@ window.onload = function(){
 	var n = 0;
 	var firstpage = $('m-fp');
 	var times = setInterval(time,1000);
-	
+	var inter = firstpage.getElementsByTagName('a');
+	inter[0].onclick = function(){firstpage.style.display = 'none';clearInterval(times);}
 	function time(){
 		if(n == 5){firstpage.style.display = 'none';clearInterval(times);}
 		var date = new Date();
