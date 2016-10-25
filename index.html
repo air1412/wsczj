@@ -2,20 +2,116 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />  
 	<title>我是蔡志杰</title>
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
 </head>
 <body>
-	<div id="m-doc">
-		<div class="firstpage" id="m-fp">
-			<span></span>
-			<div><img src="img/firstpage.png" alt=""></div>
-			<a href="#"></a>
-		</div>
+<div id="m-doc">
+	<div class="head" id="m-top">
+		<p>Do excellent</p>
+		<span>莫等闲，白了少年头，空悲切!</span><br>
+		<span class="year"></span>
+		<span class="month"></span>
+		<span class="date"></span>
+		<span class="hour"></span>
+		<span class="minute"></span>
+		<span class="second"></span><br>
+		<input type="button" value="Explore" onClick="scrollit()">
 
-	
 	</div>
+	<div class="center1">
+		<div class="introduce">
+			<h1>ABOUT ME</h1>
+			<div class="il">
+				<p>
+					爱运动，爱摄影，爱数码，爱前端。性情耿直，肯坚持能吃苦，一旦认定的事，能够尽全力完成。自律性强，对自己要求严格,心思缜密。热爱团队协作，始终认定集思广益是一件非常好的事情，希望在团队中能积极表现。有抱负，积极乐观上进，是一个能在压力中前进的人，希望能够有一次让自己发光的机会，谢谢。
+				</p>
+			</div>
+			<div class="ir">
+				<h3>蔡志杰</h3>
+				<p>联系方式：<a href="tel:18050120042">18050120042</a></p>
+				<p>电子邮箱：<a href="mailto:czj1222@126.com">czj1222@126.com</a></p>
+				<p>求职意向：<a href="">Web前端</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="center2">
+		<h2>教育经历</h2>
+		<div class="edu">
+			<div class="jmu">
+				<h3>2012.09-2016.06</h3>
+				<h3>集美大学</h3>
+				<h4>车辆工程</h4>  
+				<ul>
+					<li>1. 计算机等级考试二级 - C语言</li>
+					<li>2. 大学英语四级</li>
+					<li>3. 班级班长</li>
+					<li>4. 学生会副主任</li>
+				</ul>			
+			</div>
+			<div class="wyjy">
+				<h3>网易云课堂微专业</h3>                      
+				<h3>Web前端开发工程师 - 优秀证书</h3>
+	            <h4>课程内容</h4>
+	            <ul>
+	            	<li>1. 页面制作 成绩合格</li>
+	            	<li>2. JavaScript程序设计 成绩优秀</li>
+	            	<li>3. DOM编程艺术 成绩优秀</li>
+	            	<li>4. 页面架构 成绩优秀</li>
+	            	<li>5. 产品前端架构 成绩优秀</li>
+	            	<li>6. Web前端开发实践 成绩合格</li>				
+	            </ul>
+			</div>
+		</div>					
+	</div>
+	<div class="center3">
+		<h2>Web前端开发技能</h2>
+		<ul>
+			<li><i>HTML</i><span>使用语义化标签及实体，嵌套标签，使用标签属性，规范的注释格式等</span></li>
+			
+			<li><i>CSS</i><span>使用选择器，设置文本、盒模型、背景、布局、变形、动画等</span></li>
+			
+			<li><i>JavaScript</i><span>使用正则、字符串、表达式等，使用函数，使用闭包等</span></li>
+			
+			<li><i>Jquery</i><span>Jquery对象、Jquery选择权、Jquery属性与样式操作等</span></li>
+		</ul>
+	</div>
+	<div class="bottom">
+		<h2>产品经历</h2>
+		<h3>网易教育产品部 - 主页</h3>
+		<ul>
+			<li><i>1. 关闭顶部通知条</i><p>点击顶部通知条中的“X 不再提醒”后，刷新页面不再出现此通知条（使用本地cookie实现）</p></li>
+			<li><i>2. 关注按钮 </i><p>判断登录的cookie是否设置，未设置登录cookie，弹出登录框，使用给定的用户名和密码（需要表单验证）调用服务器Ajax登录，成功后设置登录cookie登录成功后，调用关注API，并设置关注成功的cookie</p></li>
+			<li><i>3. 点击“了解更多”</i><p>新窗口打开对应的页面</p></li>
+			<li><i>4. 轮播图</i><p>图片实现每5s切换循环播放；鼠标悬停某张图片，则暂停切换；切换效果使用入场图片500ms淡入的方式。点击后新开窗口打开目的页面</p></li>
+			<li><i>5. 右侧“热门推荐”</i><p>实现每次进入或刷新本页面，“热门推荐”模块中，接口返回20门课程数据，默认展示前10门课程，隔5秒更新一门课程，实现滚动更新热门课程的效果。课程数据接口见本文档的数据接口列表</p></li>
+			<li><i>6. 页面布局动态适应</i><p>根据浏览器窗口宽度，适应两种视觉布局尺寸。窗口宽度<1205时，使用小屏视觉布局；窗口宽度>=1205时，使用大屏视觉布局</p></li>		
+		</ul>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+</div>
 </body>
 </html>
 <script type="text/javascript" src="main.js"></script>
