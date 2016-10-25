@@ -81,7 +81,7 @@ ul{list-style-type: none;}
 }
 .center2 h2{
 	text-align: center;
-	line-height: 80px;
+	line-height: 70px;
 	border-bottom: 1px solid #568ed9;
 	background-color: #fff;
 	color: #568ed9;
@@ -157,6 +157,8 @@ ul{list-style-type: none;}
 	margin: 0 auto;
 	text-align: center;
 	overflow: hidden;
+	border-bottom: 20px solid #568ed9;
+	padding-bottom: 60px;
 }
 .bottom h2{
 	text-align: center;
